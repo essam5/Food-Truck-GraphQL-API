@@ -16,7 +16,7 @@ class Command(BaseCommand):
         FoodTruck.objects.all().delete()
 
         # Load data from CSV
-        file_path ='/home/dell/projects/RAKT-task/foodtruck_project/foodtrucks/management/commands/food-truck-data.csv' 
+        file_path ='/home/dell/projects/RAKT-task/foodtruck_project/food-truck-data.csv' 
        
         with open(file_path, 'r') as file:
             reader = csv.DictReader(file)
