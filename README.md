@@ -12,21 +12,26 @@ and allows filtering by status (APPROVED,REQUESTED,SUSPEND,EXPIRED) and facility
    git clone https://github.com/yourusername/food-truck-graphql-api.git
 2. cd food-truck-graphql-api
 3. Create a virtual environment:
+   ```bash
    python -m venv venv
 
-4. Activate the virtual environment:
-  source venv/bin/activate
+5. Activate the virtual environment:
+   ```bash
+   source venv/bin/activate
 
-5. Install the required dependencies:
+7. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
    python manage.py migrate
 
-6. Load the data from the CSV file using the custom Django management command
-  python manage.py load_foodtrucks
+8. Load the data from the CSV file using the custom Django management command
+    ```bash
+    python manage.py load_foodtrucks
 
-7. Run the Server
-  python manage.py runserver
-
+10. Run the Server
+   ```bash
+   python manage.py runserver
+```
 The API will be available at http://localhost:8000/graphql/.
 
 #Example Query:
