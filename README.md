@@ -9,7 +9,7 @@ and allows filtering by status (APPROVED,REQUESTED,SUSPEND,EXPIRED) and facility
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/food-truck-graphql-api.git
+   git clone https://github.com/essam5/Food-Truck-GraphQL-API.git
 2. cd food-truck-graphql-api
 3. Create a virtual environment:
    ```bash
