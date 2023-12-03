@@ -57,7 +57,7 @@ The API will be available at http://localhost:8000/graphql/.
       
     }
 
-#New Feature 
+###New Feature 
 Haversine Distance Calculation:
 
 The distance_to method in the FoodTruck model calculates the distance between a given latitude and longitude using the Haversine formula. This method enhances the API's ability to filter food trucks based on geographical proximity.
